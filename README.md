@@ -39,10 +39,10 @@
   6.2 Tính bán kính cong trung bình cho làn bên trái và làn bên phải (hàm calc_curve() trong fiel line_fit.py)
 7. Độ lệch của xe so với tâm làn đường
   7.1 thông qua đa thức phù hợp xác định được độ lệch của xe so với tâm làn đường
-  7.2 Giả sử tâm của xe là tâm của hình ảnh => tâm của làn đường là giá trị trung bình của giá trị x dưới cùng của làn bên trái và bên phải 
+  7.2 Giả sử tâm của xe là tâm của hình ảnh => tâm của làn đường là giá trị trung bình của giá trị x dưới cùng của làn bên trái và bên phải.  
       Độ lệch là giá trị tâm của phương tiện trừ đi giá trị tâm của làn đường ( calc_vehicle_offset() trong line_fit.py )
 8. Vẽ khu vực của làn đường, thông tin độ cong của làn và độ lệch phương tiện
-  * Tạo một hình ảnh trống và vẽ các đường polyfit của chúng tôi (ước tính các đường làn bên trái và bên phải)
+  * Tạo một hình ảnh trống và vẽ các đường polyfit (ước tính các đường làn bên trái và bên phải)
   * Tô khu vực giữa các dòng (với màu xanh lá cây)
   * Sử dụng ma trận sợi dọc nghịch đảo được tính toán từ phép biến đổi phối cảnh, để "làm chậm" ở trên sao cho nó được căn chỉnh với phối cảnh của hình ảnh ban  đầu
   * Phủ chú thích ở trên lên hình ảnh gốc
