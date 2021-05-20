@@ -5,8 +5,6 @@
 * OpenCV-Python
 * Matplotlib
 * Pickle
-
-
 # Hướng giải quyết bài toán
 1. Hiệu chỉnh camera
   1.1 Chuyển qua ảnh xám
@@ -14,7 +12,7 @@
   1.3 Hiệu chuẩn hình ảnh: tính toán ma trận biến dạng với calibrateCamera() của openCV
   1.4 Sử dụng ma trận biến dạng để đưa hình ảnh về không biến dạng với hàm undistort() của openCV
 2. Đưa ảnh về dạng không biến dạng
-  2.1 Sử dụng ma trận biến dạng ở trên để đưa hình ảnh về không biến dạng với hàm undistort() của openCV Phân ngưỡng hình ảnh 
+  2.1 Sử dụng ma trận biến dạng ở trên để đưa hình ảnh về không biến dạng với hàm undistort() của openCV 
 3. Phân ngưỡng hình ảnh
   3.1 Phân ngưỡng hình ảnh với ảnh không biến dạng ở trên 
     * áp dụng Absolute horizontal Sobel cho ảnh 
